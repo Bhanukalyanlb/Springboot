@@ -13,6 +13,9 @@ public interface ContactRepository extends JpaRepository<Contact, Long> {
 	
 	Contact findByName(String name);
 
+	void update(Contact contact);
+
+
 
 
 }
