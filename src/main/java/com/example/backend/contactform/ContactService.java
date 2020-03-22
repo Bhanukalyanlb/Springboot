@@ -41,9 +41,9 @@ public class ContactService {
 	}
 	
 	/*Put Method*/
-	public void updateContact(Contact contact) {
-		contactRepository.update(contact);
-	}
+//	public void updateContact(Contact contact) {
+//		contactRepository.update(contact);
+//	}
 	
 	/*Delete method*/
 	  public void deleteContact(Contact contact) {

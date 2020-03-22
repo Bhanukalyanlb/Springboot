@@ -25,7 +25,7 @@ import com.example.backend.models.MapReturn;
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 public class ContactController {
 	
-	 @Autowired  
+//	 @Autowired
 	    private SessionFactory sessionFactory;
 	
 	private static final Object newContact = null;
